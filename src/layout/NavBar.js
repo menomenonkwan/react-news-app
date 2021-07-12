@@ -74,13 +74,13 @@ const StyledNav = styled.nav`
 const NavBar = () => {
   return (  
     <StyledNav>
-      <NavLink to="/news">
+      <NavLink to="/react-news-app/news">
         <h4>News</h4>
       </NavLink>
-      <NavLink to="/books">
+      <NavLink to="/react-news-app/books">
         <h4>Books</h4>
       </NavLink>
-      <NavLink to="/movies">
+      <NavLink to="/react-news-app/movies">
         <h4>Movies</h4>
       </NavLink>
     </StyledNav>

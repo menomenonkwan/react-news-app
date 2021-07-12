@@ -40,10 +40,10 @@ function App() {
       <Container>
         <AnimatePresence exitBeforeEnter> 
           <Switch location={location} key={location.pathname}>
-            <Route exact path="/" component={Home} />
-            <Route path="/news" component={News} />
-            <Route path="/books" component={Books} />
-            <Route path="/movies" component={Movies} />
+            <Route exact path="/react-news-app/" component={Home} />
+            <Route path="/react-news-app/news" component={News} />
+            <Route path="/react-news-app/books" component={Books} />
+            <Route path="/react-news-app/movies" component={Movies} />
             <Route component={NotFound} />
           </Switch>
         </AnimatePresence>

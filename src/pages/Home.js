@@ -49,7 +49,7 @@ const Home = () => {
           duration: 1.5,
         }}       
       >
-        <NavLink to="/news">Let's Go</NavLink>
+        <NavLink to="/react-news-app/news">Let's Go</NavLink>
       </Btn>
     </Wrapper>
   );
